@@ -1,0 +1,17 @@
+
+{
+  "name": "fasuto/ecuador-political-division",
+  "keywords": ["ecuador","political","division"],
+  "license": "MIT",
+  "description": "Ecuador political division example",
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fasuto\\Ecuador\\PoliticalDivision\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Fasuto\Ecuador\PoliticalDivision;
 
 use Illuminate\Support\ServiceProvider;
 

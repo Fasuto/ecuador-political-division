@@ -24,8 +24,9 @@ class EcuadorPoliticalDivisionServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadMigrationsFrom(__DIR__.'/Migrations');
+
         $this->publishes([
-            __DIR__.'/SEEDS' => public_path('database/seeds'),
-        ], 'public');
+            __DIR__.'/Seeds' => app_path('../database/seeds'),
+        ], 'seed');
     }
 }
